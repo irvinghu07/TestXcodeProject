@@ -16,5 +16,11 @@
 
 @property (nonatomic, strong) AVPlayerLayer *playerLayer;
 
+@property (nonatomic, strong) UISlider *avSlider;
+
+@property (nonatomic, strong) UIButton *myButton;
+
+@property (nonatomic, assign) BOOL isReadyToPlay;
+
 @end
 

@@ -17,7 +17,7 @@
 @implementation ViewController
 
 -(void)viewWillAppear:(BOOL)animated{
-    self.sourceURL = [NSURL URLWithString:@"https://www.youtube.com/watch?v=J6vIS8jb6Fs"];
+    self.sourceURL = [NSURL URLWithString:@"https://fpdl.vimeocdn.com/vimeo-prod-skyfire-std-us/01/576/8/202884524/687898845.mp4?token=1525266848-0x243073e2e3318ab57cc5c0b39bee6306ed17af59"];
     self.item = [AVPlayerItem playerItemWithURL:self.sourceURL];
     self.myPlayer = [AVPlayer playerWithPlayerItem:self.item];
     self.playerLayer = [AVPlayerLayer playerLayerWithPlayer:self.myPlayer];
